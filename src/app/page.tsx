@@ -102,7 +102,7 @@ export default function Home() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Sign In
+					Sign Up
 				</a>
 
 				<a
@@ -112,6 +112,15 @@ export default function Home() {
 					rel="noopener noreferrer"
 				>
 					Login
+				</a>
+
+				<a
+					className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+					href={process.env.NEXT_PUBLIC_CLIENT_URL + '/todo'}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Todo List
 				</a>
       </footer>
     </div>
